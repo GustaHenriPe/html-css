@@ -1,0 +1,15 @@
+body{
+	background: red;
+}
+
+.textoh1{
+	color: gray;
+	font-size: 16px;
+}
+.direitos{
+	text-align: center;
+}
+
+.mesmalinha{
+	display: inline;
+}
