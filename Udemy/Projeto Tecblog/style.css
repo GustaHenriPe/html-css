@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(241, 241, 241);
+}
+
+header{
+    background-color: #FFC300;
+    text-align: center;
+    
+}
+header>h1{
+    padding: 10px;
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+nav{
+    padding: 10px 10px 30px 10px;
+}
+nav>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 10px;
+}
+nav>a:hover{
+    background-color: white;
+    color: #FFC300;;
+}
