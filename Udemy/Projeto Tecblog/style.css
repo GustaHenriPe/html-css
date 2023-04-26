@@ -1,19 +1,20 @@
 @charset "UTF-8";
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 html, body{
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(241, 241, 241);
+    background-color: white;
 }
 
 header{
     background-color: #FFC300;
     text-align: center;
+    
     
 }
 header>h1{
@@ -22,15 +23,95 @@ header>h1{
     font-size: 2.5em;
 }
 nav{
-    padding: 10px 10px 30px 10px;
+    padding: 10px 10px 20px 10px;
 }
-nav>a{
-    color: white;
+
+a{
+    color: #FFC300;
     text-decoration: none;
     font-weight: bolder;
-    padding: 10px;
 }
-nav>a:hover{
+a:hover{
+    text-decoration: underline;
+}
+#cabeçalho{
+    
+}
+#cabeçalho a{
+    color: white;  
+    padding: 12px;
+}
+#cabeçalho a:hover{
     background-color: white;
     color: #FFC300;;
+    text-decoration: none;
+}
+
+.branco{
+    color:white;
+}
+
+ #principal{
+    width: 920px;
+    padding: 15px;
+    margin: 0 auto;
+ }
+
+#area-lateral{
+    
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+
+    background-color: white;
+}
+.postagem > h2{
+    color: #FFC300;
+    
+ }
+
+.postagem > span{
+    font-size: 0.8em;
+}
+
+.postagem > img{
+    margin-top: 20px;
+}
+.postagem > p{
+    padding: 10px;
+}
+
+ #area-lateral{
+    width: 240px;
+    float: right;
+ }
+
+ #area-lateral h3{
+    background-color: lightgray;
+    color: #4e4e4e;
+    font-size: 1.5em;
+ }
+
+ .postagem-lateral{
+    padding: 5px;
+ }
+ .postagem-lateral a{
+    display: block;
+    padding-bottom: 5px ;
+ }
+#postagens-recentes{
+    margin-bottom: 40px;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(209, 209, 209, 0.849);
 }

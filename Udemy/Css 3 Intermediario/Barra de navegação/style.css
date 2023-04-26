@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+ul{
+    list-style-type: none;  
+    margin:0px;
+    padding: 0px;
+}
+
+li{
+    padding: 5px 20px;
+    background: url(imagens/seta.png) no-repeat left center;
+    
+}
+
+a{
+    text-decoration: none;
+    bac
+}
