@@ -4,15 +4,22 @@ ul{
     list-style-type: none;  
     margin:0px;
     padding: 0px;
-}
-
-li{
-    padding: 5px 20px;
-    background: url(imagens/seta.png) no-repeat left center;
     
 }
 
-a{
+ul a{
+
+    color: black;
     text-decoration: none;
-    bac
+    text-indent: 40px;
+    line-height: 40px;
+    display: block;
+    width: 200px;
+    height: 40px;
+    background: url(imagens/menu.png) left bottom;
+}
+
+ul a:hover{
+    background-position: right bottom;
+    color: white;
 }
