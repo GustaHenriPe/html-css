@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    font-family: 'Libre Baskerville', serif;
+}
+
+/*#conteudo{
+    margin-top: 80px;
+    color: white;
+    text-align: center;
+}*/
+
+#conteudo{
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 80px;
+    text-align: center;
+}
+
+#conteudo img{
+    border: 5px solid white;
+    width: 100%;
+}
