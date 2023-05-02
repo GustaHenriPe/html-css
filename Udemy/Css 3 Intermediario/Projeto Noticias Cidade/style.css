@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(imagens/fundo.png) repeat-x;
+}
+header{
+     
+    width: 100vw;
+    height: 300px;
+    position: relative;
+}
+
+header img#detalhe{
+    position: absolute;
+    right: 25%;
+    z-index: 3;
+}
+
+nav{
+    margin: auto;
+    z-index: 2;
+}
+nav ul{
+    list-style: none;
+    
+}
+
+nav a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    background-color: #b60000;
+    
+}
+
+#container{
+    width: 750px;
+    margin: 0 auto;
+    border: 1px solidred
+    ;
+}
