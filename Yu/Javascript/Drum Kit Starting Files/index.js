@@ -2,7 +2,7 @@
 
 for (var i = 0; i < 7; i++){
 
-    $(".drum")[i].addEventListener("click", function(){
+    document.querySelectorAll(".drum")[i].addEventListener("click", function(){
         
         var buttonInnerHTML = this.innerHTML;
 
@@ -65,7 +65,7 @@ function makeSound(key){
 }
 
 function buttonAnimation(currentKey){
-     var activeButton = $("."+currentKey)
+     var activeButton = document.querySelector("."+currentKey)
      
      activeButton.classList.add("pressed")
 
